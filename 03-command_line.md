@@ -20,7 +20,22 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+1) pwd
+2) mkdir directory
+3) rmdir directory
+4) touch filename
+5) rm filename
+6) mv oldfilename newfilename
+7) ls -a 
+8) cp file1 file2
+9) history
+10) man command 
+
+
+
+
+
+ 
 
 ---
 
@@ -35,7 +50,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+1) lists contents of working directory
+2) lists files + hidden files in wd
+3) long listing of file info
+4) list size of file
+5) list size of hidden files as well
+6) list files by modification time
+7) long listing of files with path, without owner
 
 ---
 
@@ -43,7 +64,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+1) ls -R list contents of directory and subdirectories
+2) ls -r list files in reverse order
+3) ls -i display inodes of each file
+4) ls -d display directories only
+5) ls -c disply files by timestamp
 
 ---
 
@@ -51,7 +76,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs converts input into arguments for a command.
+Default command is echo.
+
+**xargs find -name "*.txt"**
+
 
  
 
